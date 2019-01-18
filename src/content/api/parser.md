@@ -35,7 +35,7 @@ as such:
 
 ### evaluateTypeof
 
-`SyncBailHook`
+`HookMap`
 
 Evaluate the type of an identifier.
 
@@ -44,7 +44,7 @@ Parameters: `expression`
 
 ### evaluate
 
-`SyncBailHook`
+`HookMap`
 
 Evaluate an expression.
 
@@ -53,7 +53,7 @@ Parameters: `expression`
 
 ### evaluateIdentifier
 
-`SyncBailHook`
+`HookMap`
 
 Evaluate an identifier that is a free variable.
 
@@ -62,7 +62,7 @@ Parameters: `expression`
 
 ### evaluateDefinedIdentifier
 
-`SyncBailHook`
+`HookMap`
 
 Evaluate an identifier that is a defined variable.
 
@@ -71,7 +71,7 @@ Parameters: `expression`
 
 ### evaluateCallExpressionMember
 
-`SyncBailHook`
+`HookMap`
 
 Evaluate a call to a member function of a successfully evaluated expression.
 
@@ -98,7 +98,7 @@ Parameters: `statement`
 
 ### label
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -179,7 +179,7 @@ Parameters: `statement` `source` `identifierName` `exportName` `index`
 
 ### varDeclaration
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -188,7 +188,7 @@ Parameters: `declaration`
 
 ### varDeclarationLet
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -197,7 +197,7 @@ Parameters: `declaration`
 
 ### varDeclarationConst
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -206,7 +206,7 @@ Parameters: `declaration`
 
 ### varDeclarationVar
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -215,7 +215,7 @@ Parameters: `declaration`
 
 ### canRename
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -224,7 +224,7 @@ Parameters: `initExpression`
 
 ### rename
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -233,7 +233,7 @@ Parameters: `initExpression`
 
 ### assigned
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -242,7 +242,7 @@ Parameters: `expression`
 
 ### assign
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -251,7 +251,7 @@ Parameters: `expression`
 
 ### typeof
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -260,7 +260,7 @@ Parameters: `expression`
 
 ### call
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -269,7 +269,7 @@ Parameters: `expression`
 
 ### callAnyMember
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -278,7 +278,7 @@ Parameters: `expression`
 
 ### new
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -287,7 +287,7 @@ Parameters: `expression`
 
 ### expression
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
@@ -296,7 +296,7 @@ Parameters: `expression`
 
 ### expressionAnyMember
 
-`SyncBailHook`
+`HookMap`
 
 ...
 
